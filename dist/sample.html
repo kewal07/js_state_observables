@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JSObservables: Sample </title>
+		<script src="../build/js_observables.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Sample code for testing JSObservables</h2>
+			<h3>Please open console and feel free to experiment</h3>
+
+		</div>
+		<script type="text/javascript">
+			console.log(js_observables);
+			let myState = js_observables.State.create({
+				range: {
+			        start: 1,
+			        end: 5 
+			    },
+			    visible: true 
+			});
+			var check = myState.getState();
+			if(myState.data == check){
+				console.log("getState working");
+			}
+			myState.create('range.type',{
+			    absolute: true
+			});
+			myState.create('newKey',true);
+			if('newKey' in myState.data){
+				console.log('Create working');
+			}
+			myState.getState();
+			console.log(myState.prop('range.type'));
+			var unsub1 = myState.on('range', (oldValue, newValue) => { 
+			    console.log('Value before prop change', oldValue);
+			    console.log('Value after prop change', newValue);
+			});
+			myState.prop('range.start', 9);
+			var unsub2 = myState.next('range', (oldValue, newValue) => { 
+			    console.log('Next Value before prop change', oldValue); 
+			    console.log('Next Value after prop change', newValue);
+			});
+
+			myState.prop('range.start', 11);
+			myState.prop('range.end', 12);
+			myState
+				.lock()
+				.prop('range.start', 13)
+				.prop('range.end', 14)
+				.prop('range.end', 15)
+				.unlock()
+		</script>
+	</body>
+</html>
