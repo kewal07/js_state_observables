@@ -1,6 +1,7 @@
 # js_state_observables
 ---
 A javascript only library to convert objects into observables and has handy API to manipulate the state
+---
 Detailed Documentation : [Here](https://kewal07.github.io/js_state_observables/output/)
 ---
 ## To use:
