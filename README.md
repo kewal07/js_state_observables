@@ -2,6 +2,16 @@
 ---
 A javascript only library to convert objects into observables and has handy API to manipulate the state
 ---
+```
+
+=============================== Coverage summary ===============================
+Statements   : 92.31% ( 120/130 )
+Branches     : 79.55% ( 70/88 )
+Functions    : 100% ( 21/21 )
+Lines        : 94.17% ( 113/120 )
+================================================================================
+```
+---
 Detailed Documentation : [Here](https://kewal07.github.io/js_state_observables/output/)
 ---
 ## To use:
@@ -95,6 +105,27 @@ or directly run from cmd as
 By default the output is looged to stdout but you can save it to a file usine the below -o option
 ```
 ./node_modules/.bin/eslint src/ -o /eslint_output.html
+```
+
+## Framework Details
+- webpack used to package and build
+- mocha and chai used for tests
+- istanbul used for code coverage
+- babel used for compiler 
+```
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-es2015": "6.24.1",
+    "chai": "4.1.2",
+    "dotenv": "4.0.0",
+    "eslint": "4.16.0",
+    "istanbul": "1.1.0-alpha.1",
+    "jsdoc": "3.5.5",
+    "jsdom": "11.5.1",
+    "jsdom-global": "3.0.2",
+    "mocha": "5.0.0",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.11.1"
 ```
 ## More ToDos: 
 - Add references to all the fantastic tutorials and documentations
