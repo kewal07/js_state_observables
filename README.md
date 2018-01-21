@@ -30,7 +30,8 @@ $ npm npm run test:coverage
 
 ### Extra Information
 
-## Detailed Documentation : [Here](https://kewal07.github.io/js_state_observables/output/) 
+## Detailed Documentation : 
+#[Here](https://kewal07.github.io/js_state_observables/out/) 
 Most of the document has been generated via source code comments using the jsdoc package and store in the output directory. You can
 run the command below as a post/pre build step to generate your own docs. However change the directory or you may loose some
 manually added html in the current output directory.
@@ -39,7 +40,8 @@ npm install jsdoc
 jsdoc /path/source/file/you/want/documented
 ```
 
-## Sample: [Here](https://kewal07.github.io/js_state_observables/dist/sample.html)
+## Sample: 
+#[Here](https://kewal07.github.io/js_state_observables/dist/sample.html)
 -ToDo: Create a dev sample that can be run using npm-dev. Showcase via animations and make a nice tutorial out of it.
 You can use jsdom to simulate a headless browser to generate tests.
 
@@ -91,6 +93,10 @@ By default the output is looged to stdout but you can save it to a file usine th
 ```
 ./node_modules/.bin/eslint src/ -o /eslint_output.html
 ```
+##More ToDo
+- Add references to all the fantastic tutorials and documentations
+- Add reference to all the plugins source page
+- Extend and add more functionalities to the plugin
 
 ## Want To Contribute?
 Fork this repo, make changes, test and send a pull request.
