@@ -33,6 +33,7 @@ $ npm npm run test:coverage
 
 ## Detailed Documentation : 
 [Here](https://kewal07.github.io/js_state_observables/out/) 
+
 Most of the document has been generated via source code comments using the jsdoc package and store in the output directory. You can
 run the command below as a post/pre build step to generate your own docs. However change the directory or you may loose some
 manually added html in the current output directory.
@@ -43,7 +44,8 @@ jsdoc /path/source/file/you/want/documented
 
 ## Sample: 
 [Here](https://kewal07.github.io/js_state_observables/dist/sample.html)
--ToDo: Create a dev sample that can be run using npm-dev. Showcase via animations and make a nice tutorial out of it.
+
+ToDo: Create a dev sample that can be run using npm-dev. Showcase via animations and make a nice tutorial out of it.
 You can use jsdom to simulate a headless browser to generate tests.
 
 ## Lint: 
