@@ -42,7 +42,7 @@ $ npm npm run test:coverage
 ### Extra Information
 
 ## Detailed Documentation : 
-[Here](https://kewal07.github.io/js_state_observables/out/) 
+https://kewal07.github.io/js_state_observables/out/
 
 Most of the document has been generated via source code comments using the jsdoc package and store in the output directory. You can
 run the command below as a post/pre build step to generate your own docs. However change the directory or you may loose some
