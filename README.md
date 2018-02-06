@@ -12,7 +12,7 @@ Lines        : 94.17% ( 113/120 )
 ================================================================================
 ```
 ---
-Detailed Documentation : [Here](https://kewal07.github.io/js_state_observables/output/)
+Detailed Documentation : [Here](kewal07.github.io/js_state_observables/out)
 ---
 ## To use:
 Clone this repository, change values in `.env` file according to your need.
